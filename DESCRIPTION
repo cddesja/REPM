@@ -2,7 +2,7 @@ Package: REPM
 Type: Package
 Title: Companion package to the Using R for Educational and Pyschological Measurement textbook.
 Version: 0.1.0
-Authors@R: person("Christopher", "Desjardins", email = "cdesjard@umn.edu", role = c("aut", "cre")); person("Okan", "Bulut", email = "cdesjard@umn.edu", role = c("aut", "cre"))
+Authors@R: person("Christopher", "Desjardins", email = "cdesjard@umn.edu", role = c("aut", "cre")); person("Okan", "Bulut", email = "bulut@ualberta.ca", role = c("aut", "cre"))
 Description: Wrappers to make output and interaction with functions simpiler and data sets include in the REPM textbook.
 License: GPL3
 LazyData: TRUE
