@@ -2,10 +2,10 @@
 \alias{SAPA}
 \docType{data}
 \title{Synthetic Aperture Personality Assessment}
-\description{SAPA is a dataset borrowed from the psych package (Revelle, 2015). SAPA consists of 16 multiple-choice items taken from  the Synthetic Aperture Personality Assessment (SAPA), which is a web based personality assessment project. The data from 1525 subjects are scored dichotomously.}
-\usage{data(iqitems)}
+\description{SAPA is a dataset borrowed from the psych package (Revelle, 2015). SAPA was taken from  the Synthetic Aperture Personality Assessment (SAPA), which is a web based personality assessment project. SAPA consists of 16 multiple-choice items responded by 1525 examinees. All the items are scored dichotomously.}
+\usage{data(SAPA)}
 \format{
-   A data frame with 1525 observations on the following 16 variables. The number following the name is the item number from SAPA.
+   A data frame with 1525 examinees on the following 16 multiple-choice items. The number following the name is the item number from SAPA.
   \describe{
     \item{\code{reason.4}}{Basic reasoning question}
     \item{\code{reason.16}}{Basic reasoning question}
