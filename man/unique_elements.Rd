@@ -7,13 +7,18 @@
 unique_elements(x)
 }
 \arguments{
-\item{x}{The number of rows/columns of the covariance matrix}
+\item{x}{A fitted lavaan object}
 }
 \description{
 This function simply returns the number of unique elements in a covariance matrix. Recall that a correlation matrix is just a standardized covariance matrix.
 }
 \examples{
-unique_elements(11)
+iq.cfa <- '
+verb =~ info + comp + arith + simil + digit + vocab
+perf =~ pictcomp + parang + block + object + coding
+'
+fit <- cfa(iq.cfa, data = wiscsem)
+unique_elements(fit)
 
 }
 

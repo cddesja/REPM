@@ -3,11 +3,17 @@
 #' @description
 #' This function simply returns the number of unique elements in a covariance matrix. Recall that a correlation matrix is just a standardized covariance matrix.
 #'
-#' @param x The number of rows/columns of the covariance matrix
+#' @param x A fitted lavaan object
 #' @examples
-#' unique_elements(11)
+#' iq.cfa <- '
+#' verb =~ info + comp + arith + simil + digit + vocab
+#' perf =~ pictcomp + parang + block + object + coding
+#' '
+#' fit <- cfa(iq.cfa, data = wiscsem)
+#' unique_elements(fit)
 #'
 #' @export
 unique_elements <- function(x){
-  x * (x + 1) / 2
+  tmp <- length(diag(inspect(x)$theta))
+  tmp * (tmp + 1) / 2
 }
