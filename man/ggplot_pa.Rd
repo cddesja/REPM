@@ -17,6 +17,5 @@ ggplot_pa(x, bw = TRUE, ...)
 \examples{
 pa.cog <- fa.parallel(cognition, fm = "ml")
 ggplot_pa(pa.cog)
-
 }
 

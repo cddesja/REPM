@@ -12,6 +12,7 @@
 #'
 #' @references
 #' Bollen, K. A. (1989). Structural equations with latent variables. John Wiley & Sons.
+#' @export
 #'
 bollen_plot <- function(x, crit.value = NULL) {
   x <- na.omit(x)

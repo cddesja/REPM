@@ -10,6 +10,7 @@
 #' @examples
 #' pa.cog <- fa.parallel(cognition, fm = "ml")
 #' ggplot_pa(pa.cog)
+#' @export
 #'
 ggplot_pa <- function(x, bw = TRUE, ...){
   dat.tmp <- data.frame(fa.values = x[[1]],
