@@ -9,7 +9,7 @@ ggplot_pa(x, bw = TRUE, ...)
 \arguments{
 \item{x}{An object of class parallel returned from the fa.parallel function}
 
-\item{bw}{Do you want a black and white theme? Accepts TRUE or FALSE.}
+\item{bw}{Do you want the black and white theme? Accepts TRUE or FALSE.}
 }
 \description{
 \code{ggplot_pa} returns a parallel analysis plot using ggplot2

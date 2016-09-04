@@ -2,5 +2,6 @@
 
 export(bollen_plot)
 export(ggplot_pa)
+export(ggplot_scree)
 export(unique_elements)
 import(ggplot2)

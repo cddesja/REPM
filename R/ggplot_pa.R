@@ -4,7 +4,7 @@
 #' \code{ggplot_pa} returns a parallel analysis plot using ggplot2
 #'
 #' @param x An object of class parallel returned from the fa.parallel function
-#' @param bw Do you want a black and white theme? Accepts TRUE or FALSE.
+#' @param bw Do you want the black and white theme? Accepts TRUE or FALSE.
 #'
 #' @import ggplot2
 #' @examples
