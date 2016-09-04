@@ -15,7 +15,7 @@
 ggplot_scree <- function(x, bw = TRUE, ...){
   values <- eigen(x)$values
   factors <- 1:length(values)
-  eigen.data <- as.data.frame(values, factors)
+  eigen.data <- data.frame(values, factors)
   g0 <- ggplot(eigen.data, aes(y = values, x = factors)) +
     geom_point() + geom_line() + xlab("Factors") +
     ylab("Eigenvalues of correlation matrix") +
