@@ -1,7 +1,7 @@
 #' @title Calculate the number of estimated parameters
 #'
 #' @description
-#' Given a fitted objects from lavaan, this functions returns the number of free parameters.
+#' Given a fitted objects from lavaan, this functions returns the number of free parameter. Note, this function will give incorrect results when intercepts are estimated and should be not used.
 #'
 #' @param x A lavaan fitted object
 #'
