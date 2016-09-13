@@ -102,7 +102,7 @@
 
 #' Humor Styles Questionnaire
 #'
-#' The Humor Styles Questionnaire (HSQ) data set comes from an interactive online version of the Humor Styles Questionnaire (Martin, Puhlik-Doris, Larsen, Gray, \& Weir, 2003).
+#' The Humor Styles Questionnaire (HSQ) data set comes from an interactive online version of the Humor Styles Questionnaire (Martin, Puhlik-Doris, Larsen, Gray, & Weir, 2003).
 #' @docType data
 #' @format  A data frame with 1070 participants who answered 32 items about their humor styles. The variables Q1 through Q32 were statements rated on a five point scale where 1=Never or very rarely true, 2=Rarely true, 3= Sometimes true, 4= Often true, 5=Very often or always true. The following are the items in HSQ:
 #' \describe{
@@ -141,6 +141,6 @@
 #' }
 #' @details Responses for negatively worded statements (Q1, Q7, Q9, Q15, Q16, Q17, Q22, Q23, Q25, Q29, Q31) have been reverse-coded (i.e., 1=Very often or always true, 2=Often true, 3= Sometimes true, 4=Rarely true, 5=Never or very rarely true) in order to have the same direction (i.e., high values indicate more humorous personality) in all items.
 #' @source \url{http://personality-testing.info/_rawdata/HSQ.zip}
-#' @references Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., \& Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37, 48-75.
+#' @references Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., & Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37, 48-75.
 #'
 "HSQ"
