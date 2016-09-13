@@ -104,7 +104,7 @@
 #'
 #' The Humor Styles Questionnaire (HSQ) data set comes from an interactive online version of the Humor Styles Questionnaire (Martin, Puhlik-Doris, Larsen, Gray, \& Weir, 2003).
 #' @docType data
-#' @format  A data frame with 1071 participants who answered 32 items about their humor styles. The variables Q1 through Q32 were statements rated on a five point scale where 1=Never or very rarely true, 2=Rarely true, 3= Sometimes true, 4= Often true, 5=Very often or always true. The following are the items in HSQ:
+#' @format  A data frame with 1070 participants who answered 32 items about their humor styles. The variables Q1 through Q32 were statements rated on a five point scale where 1=Never or very rarely true, 2=Rarely true, 3= Sometimes true, 4= Often true, 5=Very often or always true. The following are the items in HSQ:
 #' \describe{
 #' \item{Q1}{I usually don't laugh or joke around much with other people.}
 #' \item{Q2}{If I am feeling depressed, I can usually cheer myself up with humor.}
