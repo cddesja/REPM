@@ -10,7 +10,7 @@ free_params(x)
 \item{x}{A lavaan fitted object}
 }
 \description{
-Given a fitted objects from lavaan, this functions returns the number of free parameters.
+Given a fitted objects from lavaan, this functions returns the number of free parameter. Note, this function will give incorrect results when intercepts are estimated and should be not used.
 }
 \examples{
 iq.cfa <- '
