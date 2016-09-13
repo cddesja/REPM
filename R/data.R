@@ -139,6 +139,7 @@
 #' \item{Q31}{Even if something is really funny to me, I will not laugh or joke about it if someone will be offended.}
 #' \item{Q32}{Letting others laugh at me is my way of keeping my friends and family in good spirits.}
 #' }
+#' @details Responses for negatively worded statements (Q1, Q7, Q9, Q15, Q16, Q17, Q22, Q23, Q25, Q29, Q31) have been reverse-coded (i.e., 1=Very often or always true, 2=Often true, 3= Sometimes true, 4=Rarely true, 5=Never or very rarely true) in order to have the same direction in all items.
 #' @source \url{http://personality-testing.info/_rawdata/HSQ.zip}
 #' @references Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., \& Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37, 48-75.
 #'
