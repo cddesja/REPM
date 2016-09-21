@@ -144,3 +144,19 @@
 #' @references Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., & Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37, 48-75.
 #'
 "HSQ"
+
+
+#' Item Scores on Eight Items from the CTBS Science Achievement Test
+#'
+#' This is the data set presented in Table 1.1 in Shavelson & Webb (1991).
+#'
+#' @docType data
+#' @keywords dataset
+#' @format A data frame with 160 rows and 3 variables:
+#' \describe{
+#'   \item{person}{The person identifier}
+#'   \item{score}{Whether a person got the item correct (1) or incorrect (0)}
+#'   \item{item}{The item. There were 8 different items: i1 though i8.}
+#' }
+#' @source Shavelson & Webb (1991). Generalizability Theory: A Primer
+"swtable11"
