@@ -3,6 +3,7 @@
 export(bollen_plot)
 export(free_params)
 export(ggplot_pa)
-export(ggplot_scree)
+export(latticeScree)
 export(unique_elements)
 import(ggplot2)
+import(lattice)
