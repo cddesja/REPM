@@ -6,20 +6,20 @@
 #' @param x A correlation matrix
 #'
 #' @import lattice
+#' @importFrom psych fa
 #' @examples
-#' interest.cor <- cor(interest)
-#' latticescree(interest.cor)
+#' latticeScree(interest)
 #' @export
 #'
-latticeScree <- function(x, ...){
-  values <- eigen(x)$values
-  factors <- 1:length(values)
+latticeScree <- function(data, ...){
+  values <- psych::fa(data, fm = "ml")$values
+  factors = seq_along(values)
   eigen.data <- data.frame(values, factors)
   xyplot(values ~ factors,
          panel = function(x, y, ...){
            panel.xyplot(x,y, type = c("p", "l"))
-           panel.abline(h = 1, lty = 2)
-         }, xlab = "Factors", 
-         ylab = "Eigenvalues of correlation matrix",
+           panel.abline(h = 0, lty = 2)
+         }, xlab = "Factors",
+         ylab = "Eigenvalues of reduced correlation matrix",
          data = eigen.data)
 }

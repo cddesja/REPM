@@ -4,7 +4,7 @@
 \alias{latticeScree}
 \title{Scree plot via lattice}
 \usage{
-latticeScree(x, ...)
+latticeScree(data, ...)
 }
 \arguments{
 \item{x}{A correlation matrix}
@@ -13,7 +13,6 @@ latticeScree(x, ...)
 \code{latticeScree} returns a scree plot using the lattice package
 }
 \examples{
-interest.cor <- cor(interest)
-latticescree(interest.cor)
+latticeScree(interest)
 }
 
