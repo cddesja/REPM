@@ -178,3 +178,19 @@
 #' }
 #' @source Kan, A., & Bulut, O. (2014). Crossed random-effect modeling: examining the effects of teacher experience and rubric use in performance assessments. Eurasian Journal of Educational Research, 57, 1-28. doi: dx.doi.org/10.14689/ejer.2014.57.4.
 "teacher"
+
+#' Hypothetical writing prompt example
+#'
+#' This is a hypothetical data set to demonstrate a two facet cross design for generalizability theory. The design is an S X W X R design, a student by writing prompt by rater design. See chapter 3 of "Using R for Educational and Psychological Measurement" for more details.
+#'
+#' @docType data
+#' @keywords dataset
+#' @format A data frame with 100 rows and 4 variables:
+#' \describe{
+#'   \item{student}{The student identifier}
+#'   \item{prompt}{The writing prompt identifier. There were five prompts}
+#'   \item{rater}{The rater identifier. There were two raters.}
+#'   \item{score}{Student score on the writing prompt. Ranged from 4 - 100, with a maximum score of 100.}
+#' }
+#' @source Desjardins, C. D. & Bulut, O. (2017). Using R for Educational and Psychological Measurement.
+"writing.data"
