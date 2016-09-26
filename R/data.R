@@ -193,4 +193,8 @@
 #'   \item{score}{Student score on the writing prompt. Ranged from 4 - 100, with a maximum score of 100.}
 #' }
 #' @source Desjardins, C. D. & Bulut, O. (2017). Using R for Educational and Psychological Measurement.
+#' @examples
+#' library(lme4)
+#' two.facet <- lmer(scores ~ (1 | students) + (1  | prompt) + (1 | rater) + (1 | students:prompt) + (1 | students:rater) + (1 | prompt:rater), data = writing.data)
+#' summary(two.facet)
 "writing.data"

@@ -20,5 +20,10 @@ writing.data
 \description{
 This is a hypothetical data set to demonstrate a two facet cross design for generalizability theory. The design is an S X W X R design, a student by writing prompt by rater design. See chapter 3 of "Using R for Educational and Psychological Measurement" for more details.
 }
+\examples{
+library(lme4)
+two.facet <- lmer(scores ~ (1 | students) + (1  | prompt) + (1 | rater) + (1 | students:prompt) + (1 | students:rater) + (1 | prompt:rater), data = writing.data)
+summary(two.facet)
+}
 \keyword{dataset}
 
