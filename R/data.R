@@ -197,5 +197,5 @@
 #' library(lme4)
 #' two.facet <- lmer(scores ~ (1 | students) + (1  | prompt) + (1 | rater) + (1 | students:prompt) + (1 | students:rater) + (1 | prompt:rater), data = writing.data)
 #' vc <- as.data.frame(VarCorr(two.facet))
-#' vc$vcov/sum(vc$vcov)
+  #' data.frame(vc$grp, vc$vcov/sum(vc$vcov))
 "writing.data"
